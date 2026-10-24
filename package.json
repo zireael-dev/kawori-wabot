@@ -1,0 +1,28 @@
+{
+  "name": "kawori-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "loop": "bash scripts/loop.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@rexxhayanasi/elaina-baileys": "1.4.7",
+    "google-translate-api-x": "^10.7.3",
+    "node-webpmux": "^3.2.1",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

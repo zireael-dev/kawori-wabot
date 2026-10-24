@@ -1,0 +1,8 @@
+node_modules/
+temp/
+data/
+kawori.db
+kawori.db-shm
+kawori.db-wal
+.env
+auth_info_baileys
