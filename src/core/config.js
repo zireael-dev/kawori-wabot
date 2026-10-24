@@ -5,10 +5,10 @@ const CONFIG_PATH = path.join(__dirname, '../../config.json');
 
 const DEFAULTS = {
     prefixes: ['/'],
-    ownerNumbers: [],
+    ownerNumbers: [6281227844398],
     stickerPack: 'Kawori-Bot',
     stickerAuthor: 'Zireael',
-    botNumber: '',
+    botNumber: '6288289949938',
     timezone: 'Asia/Jakarta',
     autoRead: true,                 // mark every incoming message as read (/autoread)
     antiDelete: {
